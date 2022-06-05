@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "build-watch": "rescript build -w",
+        "bundle-watch": "esbuild src/index.bs.js --bundle --outfile=public/bundle.js --watch",
+        "bundle-prod": "esbuild src/index.bs.js --bundle --minify --outfile=public/bundle.js"
+    },
+    "devDependencies": {
+        "rescript": "^9.1.4"
+    }
+}
